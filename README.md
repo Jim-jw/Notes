@@ -2,6 +2,7 @@
 1. HTML篇
 2. CSS篇
 3. JS篇
+    - [类型判断之typeof、instanceof、constructor](./docs/DetermineType.md)
 4. Node篇
 5. 前端工程化篇
     - [软件包管理器以及Yarn与NPM](./docs/YarnAndNPM.md)
