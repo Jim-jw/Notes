@@ -1,6 +1,7 @@
 ### 前端学习总结目录
 1. HTML篇
 2. CSS篇
+    - [CSS一句话笔记](./docs/OneCSS.md) 
 3. JS篇
     - [类型判断之typeof、instanceof、constructor](./docs/DetermineType.md)
 4. Node篇
