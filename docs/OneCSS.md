@@ -9,7 +9,7 @@
 } 
 ```
 
-2. 元素设置`border-radius: 50%`后，设置单边的`border-color`加上`animation`就能实现一个简单的加载动画
+2. 元素设置`border-radius: 50%`后，设置单边的`border-color`加上`animation`就能实现一个简单的加载动画([优秀加载动画实现](https://tobiasahlin.com/spinkit/))
 > 注：使用`transform`,`animation`需要注意布局，避免页面回流
 ```
 .loading {
