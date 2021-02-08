@@ -4,6 +4,7 @@
     - [CSS一句话笔记](./docs/OneCSS.md) 
 3. JS篇
     - [类型判断之typeof、instanceof、constructor](./docs/DetermineType.md)
+    - [JS一句话笔记](./docs/OneJs.md)
 4. Node篇
 5. 前端工程化篇
     - [软件包管理器以及Yarn与NPM](./docs/YarnAndNPM.md)
