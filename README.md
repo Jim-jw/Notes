@@ -12,6 +12,7 @@
     - [前端项目中根目录常见文件解析](./docs/DocExplanation.md)
     - [Vue CLI快速原型开发](./docs/CliService.md)
     - [Git提交规范及项目中集成校验](./docs/Commit.md)
+    - [Vue风格指南跟规范](./docs/VueRules.md)
 6. 编程基础知识篇
 7. 其他
     - [MD简单语法](./docs/Markdown.md)
