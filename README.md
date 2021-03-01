@@ -13,6 +13,8 @@
     - [Vue CLI快速原型开发](./docs/CliService.md)
     - [Git提交规范及项目中集成校验](./docs/Commit.md)
     - [Vue风格指南跟规范](./docs/VueRules.md)
-6. 编程基础知识篇
+6. 框架或库篇
+    - [`Element UI`之那些你不知道的事](./docs/ElementUI.md)
+7. 编程基础知识篇
 7. 其他
     - [MD简单语法](./docs/Markdown.md)
