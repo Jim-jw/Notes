@@ -8,6 +8,7 @@
 4. Node篇
 5. 前端工程化篇
     - [软件包管理器以及Yarn与NPM](./docs/YarnAndNPM.md)
+    - [包管理器后浪--pnpm](./docs/pnpm.md)
     - [Webpack入门](./docs/Webpack.md)
     - [前端项目中根目录常见文件解析](./docs/DocExplanation.md)
     - [Vue CLI快速原型开发](./docs/CliService.md)
