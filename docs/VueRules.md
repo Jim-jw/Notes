@@ -365,5 +365,12 @@ TheHeader
     |-left.vue
     |-right.vue
 ```
+
+### 16. `Vue2`中尽量少用或不用`mixins`
+  1. `mixins`引入了隐式依赖关系,不利于代码阅读跟问题排查
+  2. 不同`mixins`之间可能会有代码冲突覆盖的问题
+  3. 3 `mixins`代码会导致滚雪球式的复杂性
+
+
 ---
 **参考来源：**[Vue官网-风格指南](https://cn.vuejs.org/v2/style-guide/)
