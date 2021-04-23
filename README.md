@@ -15,6 +15,7 @@
     - [Git提交规范及项目中集成校验](./docs/Commit.md)
     - [Vue风格指南跟规范](./docs/VueRules.md)
     - [多人协作分支流程图](./docs/BranchFlow.md)
+    - [版本号的那些事](./docs/Version.md)
 6. 框架或库篇
     - [`Element UI`之那些你不知道的事](./docs/ElementUI.md)
 7. 编程基础知识篇
