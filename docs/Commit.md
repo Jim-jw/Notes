@@ -41,7 +41,7 @@ git commit -m"feat(test): test"
 ## 项目中集成规范
 1. 安装依赖
 ```
-npm install --save-dev @commitlint/cli cz-customizable husky
+npm install --save-dev @commitlint/cli @commitlint/config-conventional cz-customizable husky@4.3.8
 ```
 2. 在`package.json`中新增`config.commitizen`字段信息、配置`git commit`提交时的校验钩子
 ```
