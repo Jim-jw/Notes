@@ -17,6 +17,7 @@
     - [多人协作分支流程图](./docs/BranchFlow.md)
     - [版本号的那些事](./docs/Version.md)
     - [使用Sass的项目中集成Stylelint](./docs/Stylelint.md)
+    - [nginx简单配置](./docs/nginx.md)
 6. 框架或库篇
     - [`Element UI`之那些你不知道的事](./docs/ElementUI.md)
 7. 编程基础知识篇
