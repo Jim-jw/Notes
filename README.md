@@ -24,3 +24,4 @@
 7. 编程基础知识篇
 7. 其他
     - [MD简单语法](./docs/Markdown.md)
+    - [开发时碰到棘手的errors](./docs/Errors.md)
