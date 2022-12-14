@@ -75,3 +75,100 @@
     <div class="cell">栅格</div>
 </div>
 ```
+
+4. `transform`限制`position:fixed`的跟随效果，并会基于设置`transform`的元素定位
+
+5. 属性`backdrop-filter`毛玻璃效果会影响`position:fixed`定位基点跟效果
+
+6. 设置以下属性可以到达多行溢出省略号效果，但是仅限于webkit内核浏览器
+```
+<!-- 多行省略 -->
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+<!-- 一般的单行溢出省略 -->
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+```
+
+7. CSS伪元素`::selection`将样式应用于用户突出显示的文字部分（例如，在文本上单击和鼠标拖动选中文本）
+```
+.highlighting::selection {
+  background-color: red;
+  color: #fff;
+}
+```
+
+8. 计算属性值`calc()`
+```
+.main {
+    width: calc(100% - 100px);
+}
+```
+
+9. 使用`:empty`选择器来设置完全没有子元素或文本的元素的样式
+
+10. `position: sticky`可以使用两行CSS创建粘性置顶效果，可以看看[这篇文章](https://www.zhangxinxu.com/wordpress/2018/12/css-position-sticky/)
+```
+.header {
+    position: sticky;
+    top: 0;
+}
+```
+
+11. 使用`attr()`CSS函数创建CSS的动态文字提示框，`attr()`可以获取元素属性或自定义属性
+```
+// html
+<span class="tooltip" data-tooltip="This is another Tooltip Content">here</span>
+// css
+.tooltip {
+  position: relative;
+  border-bottom: 1px dotted black;
+}
+.tooltip:after {
+  content: "";
+  position: absolute;
+  bottom: 75%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  opacity: 0;
+  transition: opacity .6s;
+  border-color: #062B45 transparent transparent transparent;
+  visibility: hidden;
+}
+
+.tooltip:hover:before, .tooltip:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+```
+
+12. 属性`caret-color`设置文本输入光标的颜色
+```
+input {
+    caret-color: red;
+}
+```
+
+13. `background-clip`设置花式文字
+```
+h1 {
+    background: blue url('https://picsum.photos/id/1015/200/300');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 20px;
+    font-size: 120px;
+}
+```
+
+14. `gap`设置`flex`布局下子元素行和列之间的间距
+```
+.flex {
+    display: flex;
+    gap: 10px;
+}
+```

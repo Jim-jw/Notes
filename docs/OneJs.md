@@ -36,3 +36,23 @@
     // 差集
     let difference = Array.from(new Set([...a].filter(x => !b.has(x)))); // [1]
 ```
+
+6. `HTTP`消息头中`Cache-Control`可用值`no-store`跟`no-cache`
+    - `no-store`: **「永远都不要在客户端存储资源」**，每次永远都要从原始服务器获取资源
+    - `no-cache`: 可以在客户端存储资源，但每次都 **「必须去服务器做新鲜度校验」**，来决定从服务器获取最新资源 (200) 还是从客户端读取缓存 (304)，即所谓的协商缓存
+7. `HTTP`消息头中的`httponly`属性：若此属性为true，则只有在http请求头中会带有此cookie的信息，而不能通过document.cookie来访问此cookie
+
+8. `COMMONJS`和`ES6`模块区别
+    1. CommonJS是对模块的浅拷⻉，ES6 Module是对模块的引⽤，即ES6 Module只存只读，不能改变其值，也就是指针指向不能变，类似const
+    2. import的接⼝是read-only（只读状态），不能修改其变量值。 即不能修改其变量的指针指向，但可以改变变量内部指针指向，可以对commonJS对重新赋值（改变指针指向），但是对ES6 Module赋值会编译报错
+
+9. 违反浏览器同源策略就叫跨域, 同源策略是协议和域名以及端口必须一致
+
+10. `Webpack`的`Loader`和`Plugin`
+    - `Loader`直译为"加载器"。`Webpack`将⼀切⽂件视为模块，但是`Webpack`原⽣是只能解析`JavaScript`和`JSON`⽂件，如果想将其他⽂件也打包的话，就会⽤到`Loader`。 所以`Loader`的作⽤是让`Webpack`拥有了加载和解析非`JavaScript`文件的能力;
+    - `Plugin`直译为"插件"。`Plugin`可以扩展`Webpack`的功能,让`Webpack`具有灵活性。在`Webpack`运⾏的⽣命周期中会⼴播出许多事件，`Plugin`可以监听这些事件，在合适的时机通过`Webpack`提供的`API`改变输出结果。
+
+11. `WebPack`中`bundle`,`chunk`,`module`
+    - `bundle`是由Webpack打包出来的文件;
+    - `chunk`代码块,一个`chunk`由多个模块组合⽽成，⽤于代码的合并和分割;
+    - `module`是开发中的单个模块，在`Webpack`中⼀个模块对应⼀个⽂件，`Webpack`会从配置的`entry`中递归开始找出所有依赖的模块。
